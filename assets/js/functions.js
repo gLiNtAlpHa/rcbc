@@ -462,10 +462,11 @@ Theme Version:	1.0.0
                             return true;
                         }
                     };
+					// TODO: To enable context menu before going live
                 	
-                	document.addEventListener("contextmenu", function(e){
-                      e.preventDefault();
-                    }, false);
+                	// document.addEventListener("contextmenu", function(e){
+                    //   e.preventDefault();
+                    // }, false);
                     
                     $(document).keypress("u",function(e) {
                       if(e.ctrlKey){return false;}
