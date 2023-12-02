@@ -306,7 +306,7 @@
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 140px;
+    width: 200px;
     height: 80px;
     position: relative;
     z-index: 9;
@@ -321,9 +321,9 @@
     vertical-align: middle;
 }
 .menu-logo img{
-    max-height: 60px;
+    max-height: 80px;
 	width: auto;
-	max-width: 140px;
+	max-width: 200px;
 	
 }
 .menu-logo span{
@@ -1019,7 +1019,7 @@
 .header-transparent .menu-links .nav > li > a,
 .header-transparent .secondary-menu .btn-link,
 .header-transparent .navbar-toggler{
-    color: #fff;
+    color: #ffffff;
 }
 .header-transparent .secondary-menu .btn-link:hover{
 	color:var(--primary);
@@ -1027,10 +1027,12 @@
 .header-transparent .navbar-toggler span{
     background-color: #fff;
 }
-.header-transparent .is-fixed .menu-bar{
-	position:fixed;
-	background-color:rgba(0,0,0,0.9);
-}
+.header-transparent .is-fixed .menu-bar {
+	position: fixed;
+	/* background-color: rgba(255, 255, 255, 0.1); */
+	background: radial-gradient(circle, rgba(42, 23, 112, 0.815) 10%, hsla(0, 0%, 100%, 0) 44%), radial-gradient(circle, #ac95ff 0, hsla(0, 0%, 100%, 0) 45%);
+	backdrop-filter: blur(100px);
+  }
 .header-transparent .top-bar{
 	background-color: rgba(0,0,0,0);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -3355,4 +3357,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 		font-size: 24px;
 		margin-bottom: 5px;
 	}
+}
+
+.applybutton{
+	width: 200px;
+	padding: 10px;
+	border-radius: 30px;
+	background: #29166ff5;
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	border-style: none;
+}
+.cours-more-info{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
