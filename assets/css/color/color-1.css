@@ -1,7 +1,7 @@
 /*===================== 	Premery bg color =====================*/
 :root {
-    --primary: #4c1864;
-    --sc-primary: #4d0a91;
+    --primary: #2a166f;
+    --sc-primary: #1a0c4e;
 }
 
 /* Hex */
@@ -49,7 +49,7 @@ button.back-to-top,
 .pagination-bx.primary .pagination>li>span:hover,
 .pagination-bx.primary .pagination>li.active>span,
 .pagination-bx.primary .pagination>li.active>a {
-    background-color: #4d0a91;
+    background-color: var(--primary);
 }
 
 /*===================== 	Premery text color =====================*/
@@ -84,7 +84,7 @@ h5 a:hover,
 h6 a:hover,
 .btn.outline,
 .btn-link:hover {
-    color: #4c1864;
+    color: #2a166f;
 }
 
 /*===================== 	Secondery bg color =====================*/
@@ -102,7 +102,7 @@ h6 a:hover,
 .ovpr-dark:after,
 .ovpr:after,
 .bg-primary {
-    background-color: #4c1864;
+    background-color: #2a166f;
 }
 
 .footer-top,
@@ -114,15 +114,11 @@ h6 a:hover,
 .ovbl-light::after,
 .ovbl-dark::after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#100018+0,26006c+50,110038+100 */
-    background: #100018;
+    background: #29166ff5;
     /* Old browsers */
-    background: -moz-linear-gradient(45deg, #100018 0%, #26006c 50%, #110038 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #100018 0%, #26006c 50%, #110038 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #100018 0%, #26006c 50%, #110038 100%);
+   
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#100018', endColorstr='#110038', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#110038', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -134,15 +130,11 @@ h6 a:hover,
 .pricingtable-main,
 .account-head:after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c1864+0,3f189a+100 */
-    background: #29166fd8;
+    background: #29166fb6;
     /* Old browsers */
-    background: -moz-linear-gradient(45deg, #29166fd8 0%, #3f189a 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #29166fd8 0%, #3f189a 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #29166fd8 0%, #3f189a 100%);
+   
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166f4b', endColorstr='#3f189a', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#3f189a', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -162,8 +154,8 @@ button.back-to-top,
 .recent-news-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next,
 .testimonial-carousel .owl-nav .owl-prev {
-    background-color: #f7b205;
-    color: #000;
+    background-color: #2a166f;
+    color: #fff;
 }
 
 .footer_widget ul li a:hover,
@@ -171,7 +163,7 @@ button.back-to-top,
 .header-transparent .secondary-menu .btn-link:hover,
 .header-transparent .menu-links .nav>li:hover>a,
 .header-transparent .menu-links .nav>li.active>a {
-    color: #f7b205;
+    color: #2a166f;
 }
 
 .course-info-list ul li a.active:hover,
@@ -187,10 +179,10 @@ button.back-to-top:hover,
 .recent-news-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover,
 .testimonial-carousel .owl-nav .owl-prev:hover {
-    background-color: #4c1864;
+    background-color: #2a166f;
     color: #fff;
 }
 
 .heading-bx.left .title-head {
-    border-color: #f7b205;
+    border-color: #2a166f;
 }
