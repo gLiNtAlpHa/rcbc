@@ -2025,7 +2025,7 @@ button.back-to-top {
     overflow: hidden;
 }
 .cours-more-info{
-	border-top: 1px solid #e6e6e6;
+	/* border-top: 1px solid #e6e6e6; */
 	display: flex;
 	margin: 0;
 }
@@ -2057,7 +2057,7 @@ button.back-to-top {
 	color:#8e8e8e;
 }
 .cours-more-info .review{
-	border-right: 1px solid #e6e6e6;
+	/* border-right: 1px solid #e6e6e6; */
 }
 .cours-more-info .price {
 	text-align:right;
@@ -3373,4 +3373,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.butt{
+	background-color: var(--primary);
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
 }
