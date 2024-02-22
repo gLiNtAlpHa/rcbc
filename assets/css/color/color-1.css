@@ -1,65 +1,65 @@
 /*===================== 	Premery bg color =====================*/
 :root {
-    --primary: #2a166f;
-    --sc-primary: #1a0c4e;
+  --primary: #2a166f;
+  --sc-primary: #1a0c4e;
 }
 
 /* Hex */
 .bg-primary,
 .btn,
 .comments-area .comment-form p input[type="submit"],
-.pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span:focus,
-.feature-filters .active>[class*="btn"],
-.list-num-count>li:before,
-.pagination-bx.primary .pagination>li>a,
-.pagination-bx.primary .pagination>li>span,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.feature-filters .active > [class*="btn"],
+.list-num-count > li:before,
+.pagination-bx.primary .pagination > li > a,
+.pagination-bx.primary .pagination > li > span,
 button.back-to-top,
 .rev-btn {
-    background-color: #4c1864;
+  background-color: #4c1864;
 }
 
 /*Hex color :hover */
 .btn:active,
 .btn:hover,
 .btn:focus,
-.active>.btn,
+.active > .btn,
 .bg-primary-dark,
-.pagination>li>a:hover,
-.pagination>li>span:hover,
-.pagination>li>a:focus,
-.pagination>li>span:focus,
-.pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
 .sidenav .closebtn:hover,
 .sidenav .closebtn:focus,
 .owl-btn-1.primary .owl-prev:hover,
 .owl-btn-1.primary .owl-next:hover,
 .owl-btn-2.primary .owl-prev:hover,
 .owl-btn-2.primary .owl-next:hover,
-.pagination-bx.primary .pagination>li>a:hover,
-.pagination-bx.primary .pagination>li>span:hover,
-.pagination-bx.primary .pagination>li.active>span,
-.pagination-bx.primary .pagination>li.active>a {
-    background-color: var(--primary);
+.pagination-bx.primary .pagination > li > a:hover,
+.pagination-bx.primary .pagination > li > span:hover,
+.pagination-bx.primary .pagination > li.active > span,
+.pagination-bx.primary .pagination > li.active > a {
+  background-color: var(--primary);
 }
 
 /*===================== 	Premery text color =====================*/
 a,
 .text-primary,
 .primary li:before,
-.menu-links .nav>li.active>a,
-.menu-links .nav>li:hover>a,
-.menu-links .nav>li .mega-menu>li ul a:hover,
-.menu-links .nav>li .sub-menu li:hover>a,
+.menu-links .nav > li.active > a,
+.menu-links .nav > li:hover > a,
+.menu-links .nav > li .mega-menu > li ul a:hover,
+.menu-links .nav > li .sub-menu li:hover > a,
 footer a:active,
 footer a:focus,
 footer a:hover,
@@ -75,7 +75,7 @@ footer p a,
 .acod-head a,
 .acod-head a:hover,
 .acod-head a.collapsed:hover,
-.ttr-tabs .nav-tabs>li>a i,
+.ttr-tabs .nav-tabs > li > a i,
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -84,17 +84,17 @@ h5 a:hover,
 h6 a:hover,
 .btn.outline,
 .btn-link:hover {
-    color: #2a166f;
+  color: #2a166f;
 }
 
 /*===================== 	Secondery bg color =====================*/
 .bg-secondry {
-    background-color: #2d3239;
+  background-color: #2d3239;
 }
 
 /*===================== 	Secondery text color =====================*/
 .text-secondry {
-    color: #2d3239;
+  color: #2d3239;
 }
 
 .ovpr-light:after,
@@ -102,24 +102,24 @@ h6 a:hover,
 .ovpr-dark:after,
 .ovpr:after,
 .bg-primary {
-    background-color: #2a166f;
+  background-color: #2a166f;
 }
 
 .footer-top,
 .footer-bottom {
-    background-color: #121921;
+  background-color: #121921;
 }
 
 .ovbl-middle::after,
 .ovbl-light::after,
 .ovbl-dark::after {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#100018+0,26006c+50,110038+100 */
-    background: #29166ff5;
-    /* Old browsers */
-   
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#110038', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#100018+0,26006c+50,110038+100 */
+  background: #5a595fa0;
+  /* Old browsers */
+
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#110038', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 
 .ttr-notify-header::after,
@@ -129,13 +129,13 @@ h6 a:hover,
 .ovpr-dark:after,
 .pricingtable-main,
 .account-head:after {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c1864+0,3f189a+100 */
-    background: #29166fb6;
-    /* Old browsers */
-   
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#3f189a', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c1864+0,3f189a+100 */
+  background: #29166fb6;
+  /* Old browsers */
+
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#29166ff5', endColorstr='#3f189a', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 
 /* Secondry Color */
@@ -154,16 +154,16 @@ button.back-to-top,
 .recent-news-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next,
 .testimonial-carousel .owl-nav .owl-prev {
-    background-color: #2a166f;
-    color: #fff;
+  background-color: #2a166f;
+  color: #fff;
 }
 
 .footer_widget ul li a:hover,
 [class*="ovbl-"] .counter-style-1 .counter-text,
 .header-transparent .secondary-menu .btn-link:hover,
-.header-transparent .menu-links .nav>li:hover>a,
-.header-transparent .menu-links .nav>li.active>a {
-    color: #2a166f;
+.header-transparent .menu-links .nav > li:hover > a,
+.header-transparent .menu-links .nav > li.active > a {
+  color: #2a166f;
 }
 
 .course-info-list ul li a.active:hover,
@@ -179,10 +179,10 @@ button.back-to-top:hover,
 .recent-news-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover,
 .testimonial-carousel .owl-nav .owl-prev:hover {
-    background-color: #2a166f;
-    color: #fff;
+  background-color: #2a166f;
+  color: #fff;
 }
 
 .heading-bx.left .title-head {
-    border-color: #2a166f;
+  border-color: #2a166f;
 }
