@@ -129,6 +129,27 @@
     .sub {
       text-align: right;
     }
+
+    option {
+
+      color: #000 !important;
+    }
+
+    span.filter-option {
+      font-size: 14px !important;
+      color: #000 !important;
+    }
+
+    span.text {
+      font-size: inherit !important;
+      color: #000 !important;
+    }
+
+    .caret {
+      color: #000 !important;
+      font-size: inherit !important;
+
+    }
   </style>
 </head>
 
@@ -182,8 +203,8 @@
             <div>Contact Number:<span>*</span></div>
             <div style="display: flex; align-items: center; justify-content: center; position: relative;">
               <p style="position: absolute; left: 10px; top: 20px;">+234</p> <input type="text" name="contact_number"
-                id="contactnumber" pattern="[6-9]{1}[0-9]{4} [0-9]{5}" required placeholder="xxxxx xxxxx"
-                title="Enter Valid Number(xxxxx xxxxx)" style="width:100%; text-indent: 40px;">
+                id="contactnumber" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" required placeholder="xx xxxx xxxx"
+                title="Enter Valid Number(xx xxxx xxxx)" style="width:100%; text-indent: 40px;">
             </div>
             <div style="margin-top: 5px;">Email:<input type="email" name="email" id="email" required
                 placeholder="goodluck@xyz.com" style="width:100%;"></div>
@@ -193,7 +214,7 @@
 
             <p>
               Qualification:<span>*</span>
-              <select name="qualification" id="qualification" required style="width: 87.5%;">
+              <select name="qualification" id="qualification" required style="width: 87.5%; color: #000 !important;">
                 <option value="">--Select Qualification--</option>
                 <option value="Post Graduate">Post Graduate</option>
                 <option value="Graduate">Graduate</option>
