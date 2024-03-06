@@ -315,6 +315,9 @@
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   padding-right: 20px;
+  background: #ffffff !important;
+  backdrop-filter: blur(10px) !important;
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%) !important;
 }
 .menu-logo > a {
   display: table-cell;
@@ -1872,12 +1875,13 @@ button.back-to-top {
   top: 0;
   opacity: 1;
   z-index: 999999999;
-  background-image: url(../images/loading.gif);
+  background-image: url(../../assets/images/loadinganimation.gif);
+  background-size: 300px;
   background-repeat: no-repeat;
-  background-size: 60px;
   background-position: center;
 }
-/*========================
+
+@key /*========================
 	13. INNER CONTENT CSS
 =========================*/
 /* About Section */
@@ -3417,8 +3421,4 @@ button.back-to-top {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
-}
-
-.active a {
-  text-shadow: 1px 1px 10px #ffffffa9;
 }
