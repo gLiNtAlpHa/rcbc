@@ -85,6 +85,8 @@ h6 a:hover,
 .btn.outline,
 .btn-link:hover {
   color: #2a166f;
+  /* text-shadow: 2px 2px 6px #cccccc39; */
+  text-decoration-style: solid;
 }
 
 /*===================== 	Secondery bg color =====================*/
@@ -107,7 +109,7 @@ h6 a:hover,
 
 .footer-top,
 .footer-bottom {
-  background-color: #013167;
+  background: linear-gradient(to right, #013167, #0d0139);
 }
 
 .ovbl-middle::after,
@@ -185,4 +187,10 @@ button.back-to-top:hover,
 
 .heading-bx.left .title-head {
   border-color: #2a166f;
+}
+
+.header-transparent .menu-links .nav > li.active > a {
+  background: #ffffff83 !important;
+  height: 10px;
+  border-radius: 0 0 10px 10px;
 }
