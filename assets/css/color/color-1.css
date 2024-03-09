@@ -160,7 +160,6 @@ button.back-to-top,
   color: #fff;
 }
 
-.footer_widget ul li a:hover,
 [class*="ovbl-"] .counter-style-1 .counter-text,
 .header-transparent .secondary-menu .btn-link:hover,
 .header-transparent .menu-links .nav > li:hover > a,
@@ -168,6 +167,9 @@ button.back-to-top,
   color: #2a166f;
 }
 
+.footer_widget ul li a:hover {
+  color: #fff;
+}
 .course-info-list ul li a.active:hover,
 .course-info-list ul li a:hover,
 .btn:hover,
